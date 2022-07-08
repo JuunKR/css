@@ -1,0 +1,17 @@
+css
+flex box는 children과 이야기 x, 바로 아래의 child에만 영향
+flex box 는 객체의 너비를 바꾸는 한이 있더라도 꾸겨서 나열함 / flex-wrap : nowrap / wrap / wrap-reverse
+flex box의 flex-direction의 default = row
+justify-content는 수평축에 있는 flex child를 변경
+
+row 일때
+수평축 = main axis 
+세로축 = cross axis
+
+colum일때
+수평축 = cross axis
+세로축 = main axis 
+
+blex-basis
+child에 적용됨
+ememnt에 initial size를 줌 != 실제 사이즈

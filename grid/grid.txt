@@ -1,0 +1,18 @@
+flex-box만 사용하고 grid를 만들기는 어려움
+
+ex)
+.father {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.child {
+  flex-basis: 100px;
+  background-color: peru;
+  color: white;
+  font-size: 50px;
+}
+
+
+grid도 father에서 작업
